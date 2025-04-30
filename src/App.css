@@ -82,3 +82,45 @@ body {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
 }
+
+.github-button {
+  cursor: pointer;
+}
+
+.github-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 50%; /* center it horizontally */
+  transform: translateX(-50%); /* perfectly center */
+  margin-top: 0.5rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  min-width: 160px;
+  z-index: 10;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.dropdown a {
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown a:hover {
+  background-color: #f0f0f0;
+}
+
+.arrow {
+  font-size: 0.8rem;
+  margin-left: 0.3rem;
+  user-select: none;
+}
