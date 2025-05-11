@@ -39,6 +39,18 @@ export default function Portfolio() {
         <div className="card full-width">
           <h2 className="card-title">Projects</h2>
           <ul>
+            <li>
+                <a href="" target="_blank" rel="noopener noreferrer">
+                    CRNN for Optical Character Recognition
+                </a>
+            </li>
+            <li>Ranked Toontown Developer</li>
+          </ul>
+        </div>
+
+        <div className="card full-width">
+          <h2 className="card-title">Publications</h2>
+          <ul>
             <li>CRNN for Optical Character Recognition</li>
             <li>Ranked Toontown Developer</li>
           </ul>
