@@ -40,19 +40,26 @@ export default function Portfolio() {
           <h2 className="card-title">Projects</h2>
           <ul>
             <li>
-                <a href="" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/lkevint/OCR_CRNN" target="_blank" rel="noopener noreferrer">
                     CRNN for Optical Character Recognition
                 </a>
             </li>
-            <li>Ranked Toontown Developer</li>
+            <li>
+                <a href="https://github.com/DevvyDont/toontown-ranked" target="_blank" rel="noopener noreferrer">
+                    Ranked Toontown
+                </a>
+            </li>
           </ul>
         </div>
 
         <div className="card full-width">
-          <h2 className="card-title">Publications</h2>
+          <h2 className="card-title">Publications and Abstracts</h2>
           <ul>
-            <li>CRNN for Optical Character Recognition</li>
-            <li>Ranked Toontown Developer</li>
+            <li>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/38919220/" target="_blank" rel="noopener noreferrer">
+                    Serum Creatinine as an Independent Predictor of Moderate to Severe Fibrosis in Chinese American Non-Obese MASLD
+                </a>
+            </li>
           </ul>
         </div>
 
