@@ -7,8 +7,8 @@ export default function Portfolio() {
   return (
     <main className="main">
       <section className="intro-section">
-        <h1 className="title">My Portfolio</h1>
-        <p className="subtitle">Subtitle Placeholder.</p>
+        <h1 className="title">Kevin Liu</h1>
+        <p className="subtitle">Welcome to my portfolio. I display my projects here and tell you a little about myself.</p>
         <div className="social-links">
           <div className="github-wrapper">
             <div
@@ -74,12 +74,14 @@ export default function Portfolio() {
           <h3 className="item-title">
             Serum Creatinine as an Independent Predictor of Moderate to Severe Fibrosis in Chinese American Non-Obese MASLD
           </h3>
+          <p>
+              This was a project where I directed 
+              https://camsociety.org/PastSciConf#Sci2022
+          </p>
         </a>
 
         <h2 className="section-header">About Me</h2>
-        <div className="item-box">
-          <p>I'm a mathematics enthusiast.</p>
-        </div>
+        <p>I'm a mathematics enthusiast and an avid learner. I </p>
       </section>
     </main>
   );
