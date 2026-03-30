@@ -8,12 +8,19 @@ const about = {
 };
 
 const projects = {
+<<<<<<< Updated upstream
   title: "Tontown ",
   personalProjects: [
     {
       title: "Project 1",
       short:
         "short description",
+=======
+  title: "Projects ",
+  personalProjects: [
+    {
+      title: "Project 1",
+>>>>>>> Stashed changes
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste! ",
       technologies: ["#React.js", "#MUI", "#Firebase"],
@@ -21,8 +28,11 @@ const projects = {
     },
     {
       title: "Project 2",
+<<<<<<< Updated upstream
       short:
         "short description",
+=======
+>>>>>>> Stashed changes
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste! and also lorem",
       technologies: ["#Next.js", "#MUI", "#Strapi", "#JWT"],
@@ -30,8 +40,11 @@ const projects = {
     },
     {
       title: "Toontown Ranked",
+<<<<<<< Updated upstream
       short:
         "short description",
+=======
+>>>>>>> Stashed changes
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste!",
       technologies: [

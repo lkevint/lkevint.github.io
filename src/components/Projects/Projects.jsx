@@ -1,5 +1,9 @@
 import React from "react";
+<<<<<<< Updated upstream
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+=======
+import { FaGithub } from "react-icons/fa";
+>>>>>>> Stashed changes
 import "./Projects.css";
 import { projects } from "../../data/portfolio";
 import getColorClass from "../../utils/getColorClass";
