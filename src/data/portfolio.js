@@ -1,19 +1,19 @@
 const about = {
   title: "Hi, I'm Kevin.",
-  description:
-    "Welcome to my website.",
-  github: "https://github.com/lkevint",
+  description: "Welcome to my website.",
+  githubLinks: [
+    { label: "lkevint", url: "https://github.com/lkevint" },
+    { label: "magicianmathematician", url: "https://github.com/magicianmathematician" },
+  ],
   linkedin: "https://www.linkedin.com/in/",
   cv: "#",
 };
 
 const projects = {
-  title: "Tontown ",
+  title: "Projects",
   personalProjects: [
     {
       title: "Project 1",
-      short:
-        "short description",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste! ",
       technologies: ["#React.js", "#MUI", "#Firebase"],
@@ -21,8 +21,6 @@ const projects = {
     },
     {
       title: "Project 2",
-      short:
-        "short description",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste! and also lorem",
       technologies: ["#Next.js", "#MUI", "#Strapi", "#JWT"],
@@ -30,8 +28,6 @@ const projects = {
     },
     {
       title: "Toontown Ranked",
-      short:
-        "short description",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste!",
       technologies: [
