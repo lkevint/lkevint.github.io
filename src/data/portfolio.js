@@ -20,10 +20,12 @@ const projects = {
       github: "#",
     },
     {
-      title: "Project 2",
+      title: "Neural Network for Optical Character Recognition",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste! and also lorem",
-      technologies: ["#Next.js", "#MUI", "#Strapi", "#JWT"],
+        "OCR system for reading text from images \
+        using a Convolutional Recurrent Neural Network (CRNN)\
+        built using PyTorch.",
+      technologies: ["#Python", "#PyTorch", "#NumPy"],
       github: "#",
     },
     {
@@ -42,45 +44,4 @@ const projects = {
   ],
 };
 
-const experience = {
-  title: "Experience",
-  experiences: [
-    {
-      title: "Frontend Developer",
-      company: "XYZ Company",
-      duration: "Mar 2021 - Present",
-      description:
-        "I am currently working as a frontend developer at XYZ Company. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste! ",
-    },
-  ],
-};
-
-const skills = {
-  title: "Skills",
-  mySkills: [
-    {
-      title: "Languages & Frameworks",
-      skills: [
-        "#HTML",
-        "#CSS",
-        "#JavaScript",
-        "#TypeScript",
-        "#React.js",
-        "#Next.js",
-        "#MUI",
-        "#Node.js",
-        "#Express.js",
-      ],
-    },
-    {
-      title: "Databases",
-      skills: ["#MongoDB", "#PostgreSQL", "#Firebase"],
-    },
-    {
-      title: "Others",
-      skills: ["#Git", "#Jest", "#CI/CD", "#AdobeXD"],
-    },
-  ],
-};
-
-export { about, projects, experience, skills };
+export { about, projects };

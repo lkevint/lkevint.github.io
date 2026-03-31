@@ -1,4 +1,5 @@
 .about {
+  padding-top: 2rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -36,8 +37,11 @@
   transition: all 0.2s ease-in-out;
 }
 
-.about .about-links a:hover,
-.about .about-links .icon-button:hover {
+.about .about-links a:hover {
+  transform: translateY(-5px);
+}
+
+.about .icon-button.is-open {
   transform: translateY(-5px);
 }
 

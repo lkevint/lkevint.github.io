@@ -70,7 +70,7 @@ const About = () => {
           >
             <button
               type="button"
-              className="icon-button"
+              className={`icon-button ${isGithubMenuOpen ? "is-open" : ""}`}
               aria-label="Open GitHub links"
               aria-haspopup="true"
               aria-expanded={isGithubMenuOpen}
@@ -80,7 +80,7 @@ const About = () => {
                   setIsGithubMenuOpen(true);
                 }
               }}
-            >
+>
               <FaGithub className="icon" size={30} />
             </button>
 
@@ -111,7 +111,7 @@ const About = () => {
         </a>
 
         <a href={cv} target="_blank" rel="noreferrer">
-          Download CV
+          CV
         </a>
       </div>
     </section>

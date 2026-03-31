@@ -10,28 +10,17 @@ main {
 }
 
 /* tech colors */
-.typescript {
+.python {
   background-color: #2e72bb;
   color: #fff;
 }
-.expressjs {
-  background-color: #3c4852;
-  color: #fff;
-}
-.nextjs {
-  background-color: #000000;
-  color: #fff;
-}
-.reactjs {
+
+.pytorch {
   background-color: #5bceee;
   color: #fff;
 }
-.mui {
-  background-color: #0180ff;
-  color: #fff;
-}
 
-.git {
+.numpy {
   background-color: #e34c2f;
   color: #fff;
 }
@@ -50,6 +39,7 @@ main {
   background-color: #1f8ee7;
   color: #fff;
 }
+
 .html {
   background-color: #d94924;
   color: #fff;
@@ -62,34 +52,5 @@ main {
 
 .postgresql {
   background-color: #2f5c8b;
-  color: #fff;
-}
-
-.firebase {
-  background-color: #f19d0e;
-  color: #fff;
-}
-
-.jest {
-  background-color: #c03a14;
-  color: #fff;
-}
-
-.cicd {
-  background-color: #423f7a;
-  color: #fff;
-}
-
-.adobe-xd {
-  background-color: #430135;
-  color: #fff;
-}
-
-.strapi {
-  background-color: #8d75ff;
-  color: #fff;
-}
-.jwt {
-  background-color: #d63aff;
   color: #fff;
 }
