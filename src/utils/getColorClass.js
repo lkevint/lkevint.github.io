@@ -6,18 +6,18 @@ const getColorClass = (tech) => {
       return "pytorch";
     case "#NumPy":
       return "numpy";
-    case "#CSS":
-      return "css";
+    case "#Docker":
+      return "docker";
     case "#Git":
       return "git";
-    case "#Node.js":
-      return "nodejs";
+    case "#Excel":
+      return "excel";
     case "#MongoDB":
       return "mongodb";
     case "#PostgreSQL":
       return "postgresql";
-    case "#Next.js":
-      return "nextjs";
+    case "#SPSS":
+      return "spss";
     default:
       return "";
   }

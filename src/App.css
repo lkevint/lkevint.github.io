@@ -25,23 +25,23 @@ main {
   color: #fff;
 }
 
-.nodejs {
-  background-color: #86bf43;
-  color: #fff;
-}
-
-.javascript {
+.docker {
   background-color: #ead41c;
   color: #fff;
 }
 
-.css {
+.excel {
+  background-color: #1D6F42;
+  color: #fff;
+}
+
+.javascript {
   background-color: #1f8ee7;
   color: #fff;
 }
 
-.html {
-  background-color: #d94924;
+.spss {
+  background-color: #d92424;
   color: #fff;
 }
 

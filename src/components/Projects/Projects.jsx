@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import "./Projects.css";
 import { projects } from "../../data/portfolio";
 import getColorClass from "../../utils/getColorClass";
@@ -22,7 +22,11 @@ const Projects = () => {
             </div>
             <div className="project-links">
               <a href={project.github} target="_blank">
-                <FaGithub className="icon" size={30} />
+                {project.title === "Clinical Biomarker Analysis" ? (
+                  <FaExternalLinkAlt className="icon" size={24} />
+                ) : (
+                  <FaGithub className="icon" size={30} />
+                )}
               </a>
             </div>
           </article>
